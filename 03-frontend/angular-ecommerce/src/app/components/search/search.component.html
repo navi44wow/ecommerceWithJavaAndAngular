@@ -1,0 +1,11 @@
+<div class="form-header">
+  <input
+    #myInput
+    type="text"
+    placeholder="Search for products..."
+    class="au-input au-input-xl"
+    (kyeup.enter)="doSearch(myInput.value)"
+  />
+
+  <button (click)="doSearch(myInput.value)">Search</button>
+</div>
